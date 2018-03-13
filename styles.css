@@ -1,0 +1,116 @@
+h1 > strong {
+	font-size: 1.25em;
+}
+.ex1 
+article p > strong {
+	font-size: 1.25em;
+}
+footer p > strong {
+	font-size: 1.25em;
+}
+
+div.ex2 {
+	font-family: arial, verdana;
+	font-size: 1em;
+	color: #556B2F;
+	
+}
+ .ex2  p,small, big, a, u, abbr, em, i,.ex2 code, kbd, abbr {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+    text-decoration: none;
+	border-bottom: none;
+    font-style: normal;
+    font-weight: bold;
+
+}
+  .ex2  strong {
+    font-weight: bold;
+ }
+ .ex2 mark {
+ 	background-color: #FFFFFF;
+ 	color: #556B2F;
+ }
+div.ex3 {
+	height: 262px;
+	width: 458px;
+	background-image: url(img/1369460621_panda-26.jpg);
+	background-position: right center;
+	background-repeat: no-repeat;
+    background-color: #C0C0C0;
+	border: 5px dotted red; 
+
+}
+
+div.ex4 { 
+	width: 1150px;
+	height: 270px;
+	background-image: url(img/Rick_and_Morty_2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: solid 3px;
+	border-color: #8B0000;
+	outline: 4px solid;
+	outline-offset: 5px;
+}
+
+div.ex5 {
+	background-color: #DA70D6;
+}
+.ex5 ul.list1 {
+	list-style-type: none;
+	counter-reset: num;
+}
+.ex5
+.list1 li::before{
+	content:counter(num)")" ;
+counter-increment: num;
+}
+.ex5 ul.list2 {
+	list-style-type: upper-roman;
+	counter-reset:inherit;
+}
+.ex5
+.list2 li::before{
+	
+	content:counter(inherit) ;
+counter-increment: inherit;
+
+}
+
+div.ex6{
+	background-color: #FA8072
+}
+.ex6 ol.list1 {
+	list-style-type: square;
+}
+.ex6 ol.list2 {
+	list-style-type:none;
+}
+.ex6 .list2 li::before {
+	content: "*";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
